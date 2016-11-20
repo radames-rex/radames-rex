@@ -138,7 +138,7 @@ background-color: #2d3334;
 
 }
 .testimonial .icon i{
-color: #fff;
+/*color: #fff;*/
 font-size: 47px;
 position: absolute;
 z-index: 555;
@@ -170,14 +170,14 @@ padding-top: 110px;
 	background: url(../images/header_bg.jpg);
 	background-attachment: fixed !important;
 	background-repeat: repeat;
-	
+
 }
 .fun_facts .section_overlay{
 background: rgba(71,71,71,.8);
 padding-bottom: 30px;
 }
 .single_count{
-padding-top: 120px;	
+padding-top: 120px;
 }
 .single_count i{
 	color: #ED3237;
@@ -188,14 +188,14 @@ font-family: 'Montserrat', sans-serif;
 color: #fff;
 font-size: 40px;
 font-weight: bold;
-margin-bottom: 0px;	
+margin-bottom: 0px;
 }
 .single_count p{
 font-family: 'Dosis', sans-serif;
 color: #fff;
 font-size: 14px;
 text-transform: uppercase;
-position: relative;	
+position: relative;
 }
 .single_count p:before{
 content: "";
@@ -208,7 +208,7 @@ background: #ef4251;
 }
 .imac{
 position: relative;
-margin-top: -40px;	
+margin-top: -40px;
 }
 .imac img{
 	width: 100%;
@@ -249,7 +249,7 @@ top: 20px;
 right: 20px;
 color: #fff;
 text-decoration: none;
-text-transform: uppercase;	
+text-transform: uppercase;
 }
 .image_overlay h2{
 position: absolute;
@@ -258,7 +258,7 @@ left: 20px;
 font-size: 25px;
 color: #fff;
 text-transform: uppercase;
-letter-spacing: 3px;	
+letter-spacing: 3px;
 }
 .image_overlay h4{
 position: absolute;
@@ -266,7 +266,7 @@ bottom: 11px;
 left: 20px;
 color: #fff;
 font-size: 14px;
-text-transform: uppercase;	
+text-transform: uppercase;
 }
 .no_padding{
 	padding-left: 0px;
@@ -332,18 +332,18 @@ text-transform: uppercase;
 /*Contact*/
 
 .single_contact_info{
-padding-bottom: 21px;	
+padding-bottom: 21px;
 }
 .single_contact_info h2{
 text-transform: uppercase;
 color: #3d3d3d;
 font-size: 18px;
 letter-spacing: 3px;
-margin-bottom: 1px;	
+margin-bottom: 1px;
 }
 .single_contact_info p{
 font-size: 15px;
-color: #3d3d3d;	
+color: #3d3d3d;
 }
 
 
@@ -371,7 +371,7 @@ border-radius: 0px;
 color: #fff;
 padding-top: 13px;
 padding-bottom: 10px;
-transition: all 1s;	
+transition: all 1s;
 }
 
 
@@ -400,7 +400,7 @@ footer{
 }
 .social h2{
 text-transform: uppercase;
-font-size: 16px;	
+font-size: 16px;
 }
 ul.icon_list{
 margin: 0;
@@ -428,10 +428,10 @@ transition: all 1s;
 }
 ul.icon_list li a:hover{
 	color: #ED3237;
-	border-color:#ED3237; 
+	border-color:#ED3237;
 }
 .copyright_text{
-padding-top: 80px;	
+padding-top: 80px;
 }
 .copyright_text p{
 color: #636363;
