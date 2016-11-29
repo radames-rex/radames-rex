@@ -620,6 +620,10 @@ section#contact .form-group input.form-control {
     height: auto;
 }
 
+section#contact .form-group h2, section#contact .form-group p{
+    color: #FFFFFF;
+}
+
 section#contact .form-group textarea.form-control {
     height: 236px;
 }
