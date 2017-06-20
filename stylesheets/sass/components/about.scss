@@ -1,0 +1,129 @@
+.about {
+  &-inst {
+    .head{
+      background-image: url('../images/equipe.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 50vh;
+      background-position-y: -23%;
+    }
+
+    .main{
+      display: flex;
+    }
+
+    h2 {
+      font-size: 28px;
+      font-family: 'OpenSans-Semibold';
+      color: #fff;
+      text-transform: uppercase;
+      background: rgba(0,0,0,0.2);
+      padding: 12px 0 12px 0;
+    }
+
+    h3 {
+      font-size: 22px;
+      font-family: 'OpenSans-Semibold';
+      color: #555;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 20px;
+      font-family: 'OpenSans-Regular';
+      color: #fff;
+      background: rgba(0,0,0,0.2);
+      padding: 0 50px 50px 50px;
+    }
+
+  }
+
+  &-quality {
+    margin: 24px auto;
+    flex: 2;
+
+    .quality-item {
+      font-size: 14px;
+      font-family: 'OpenSans-Light';
+      color: #999;
+      border: 1px solid #ccc;
+      margin: 4px auto;
+      padding: 4px;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+
+      span {
+        font-family: 'OpenSans-Regular';
+        color: 555;
+      }
+    }
+  }
+
+  &-do {
+    flex: 3;
+    margin: 0 14px;
+    padding: 0 14px;
+
+    .do-item {
+      font-size: 14px;
+      font-family: 'OpenSans-Light';
+      color: #999;
+    }
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 40em) {
+  .about {
+    &-inst {
+      .head{
+        background-image: none;
+        display: table;
+      }
+
+      .main{
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    &-quality {
+      margin: 12px auto;
+      flex: 2;
+
+      .quality-item {
+        font-size: 14px;
+        font-family: 'OpenSans-Light';
+        color: #999;
+        border: 1px solid #ccc;
+        margin: 4px auto;
+        padding: 4px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+
+        span {
+          font-family: 'OpenSans-Regular';
+          color: 555;
+        }
+      }
+    }
+
+    &-do {
+      flex: 3;
+      margin: 0 14px 12px;
+      padding: 0 14px 12px;
+
+      h3 {
+        margin: 12px 12px 12px !important;
+      }
+
+      .do-item {
+        font-size: 14px;
+        font-family: 'OpenSans-Light';
+        color: #999;
+      }
+    }
+  }
+}

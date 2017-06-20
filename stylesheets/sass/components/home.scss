@@ -1,0 +1,494 @@
+.slides {
+	margin: 11vw 0 0 0;
+	height: 440px;
+	display: flex;
+	padding: 24px 130px;
+	background: #082a3e;
+	background: -moz-linear-gradient(-45deg, #082a3e 0%, #569cbc 100%);
+	background: -webkit-linear-gradient(-45deg, #082a3e 0%,#569cbc 100%);
+	background: linear-gradient(135deg, #082a3e 0%,#569cbc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#082a3e', endColorstr='#569cbc',GradientType=1 );
+
+	&-title {
+		display: flex;
+		flex-direction: column;
+		color: #fff;
+		font-family: 'OpenSans-Light';
+
+		h2 {
+			font-size: 48px;
+			margin: 90px 0 12px 0;
+			width: 590px;
+
+			small {
+				font-size: 80%;
+			}
+		}
+
+		h3 {
+			font-size: 18px;
+			width: 590px;
+		}
+	}
+
+	img {
+		height: 300px;
+		margin: 70px 0 0 70px;
+	}
+}
+
+.hbar {
+	display: flex;
+	align-items: center;
+	height: 19vh;
+	background: #569cbc url('../images/glass-texture.png');
+	background: -moz-radial-gradient(center, ellipse cover, #569cbc 16%, #013f4e 100%) url('../images/glass-texture.png');
+	background: -webkit-radial-gradient(center, ellipse cover, #569cbc 16%,#013f4e 100%) url('../images/glass-texture.png');
+	background: radial-gradient(ellipse at center, #569cbc 16%,#013f4e 100%) url('../images/glass-texture.png');
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#569cbc', endColorstr='#013f4e',GradientType=1 );
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	h3 {
+		margin: 0 auto;
+		font-family: 'OpenSans-Regular';
+		font-size: 24px;
+		color: #fff;
+		width: 80vw;
+	}
+}
+
+.hbar-x {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	height: 19vh;
+	background: #45B3EB;
+
+	h3 {
+		margin: 3vh auto;
+		font-family: 'OpenSans-Semibold';
+		font-size: 30px;
+		color: #02404F;
+		width: 80vw;
+	}
+
+	.row {
+		display: flex;
+		flex-direction: row;
+
+		img {
+			height: 6vh;
+			margin: 0 2vw;
+			border: 1px solid #023F4E;
+		}
+	}
+}
+
+.frame {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	height: 82vh;
+
+	h3 {
+		font-size: 26px;
+		font-family: 'OpenSans-Semibold';
+		color: #21252B;
+		margin: 42px 0 12px;
+	}
+
+	hr {
+		width: 50px;
+		height: 2px;
+		background-color: #21252B;
+		border: none;
+	}
+
+	h4 {
+		font-size: 16px;
+		font-family: 'OpenSans-Regular';
+		color: #737A81;
+		margin: 12px 0;
+	}
+
+	&-x {
+		background: #277598 url('../images/glass-texture.png') no-repeat;
+		background-size: cover;
+
+		h3 {
+			color: #fff;
+		}
+
+		hr {
+			background-color: #fff;
+		}
+
+		h4 {
+			color: #fff;
+		}
+	}
+
+	.services {
+		&-itens {
+			display: flex;
+			justify-content: space-around;
+		}
+
+		&-item {
+			display: flex;
+			flex-direction: column;
+			color: #737A81;
+			margin: 42px;
+			flex: 1;
+
+			&-icon {
+				padding: 22px;
+				background-color: #569CBC;
+				color: #fff;
+				border-radius: 50%;
+				display: table;
+				margin: 12px auto;
+				font-size: 42px;
+			}
+
+			span {
+				margin: 12px auto 6px;
+				font-size: 20px;
+			}
+
+			p {
+				text-align: justify;
+				margin: 6px auto;
+				font-size: 16px;
+			}
+		}
+	}
+
+	.lastworks {
+		&-itens {
+			display: flex;
+			justify-content: space-around;
+		}
+
+		&-item {
+			display: flex;
+			flex-direction: column;
+			color: #fff;
+			margin: 42px;
+
+			img {
+				margin: 12px auto;
+				width: 338px;
+				height: 216px;
+				border-radius: 4px;
+				box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+			}
+
+			span {
+				margin: 12px auto 6px;
+				font-size: 14px;
+			}
+
+			p {
+				text-align: justify;
+				margin: 6px auto;
+				font-size: 13px;
+			}
+		}
+	}
+
+	.blog {
+		display: flex;
+		flex-direction: row;
+		text-align: justify;
+		color: #5794AF;
+		padding: 42px 0 0 0;
+
+		&-news {
+			padding: 0 64px;
+			flex: 1;
+
+			.title {
+				font-family: 'OpenSans-Semibold';
+				font-size: 30px;
+				margin: 30px 0;
+			}
+
+			article {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+
+				img {
+					width: 100px;
+					height: 80px;
+					margin:  0 12px 0 0;
+				}
+
+				h3 {
+					font-family: 'OpenSans-Semibold';
+					font-size: 16px;
+					margin: 0;
+				}
+
+				h4 {
+					font-family: 'OpenSans-Light';
+					font-size: 12px;
+
+					i {
+						font-family: 'OpenSans-Bold';
+					}
+				}
+
+				p {
+					font-family: 'OpenSans-Light';
+					font-size: 14px;
+				}
+			}
+
+			hr {
+				background-color: #5794AF;
+				opacity: 0.5;
+				margin: 26px 0;
+				height: 1px;
+				width: auto;
+			}
+		}
+
+		&-promo {
+			img {
+				width: 200px !important;
+				height: 122px !important;
+				margin:  0 12px 0 0;
+			}
+		}
+	}
+}
+
+.footer {
+	height: 67vh;
+	background-color: #2E4C5A;
+	display: flex;
+	flex-direction: row;
+
+	.contact {
+		display: flex;
+		flex-direction: column;
+		text-align: justify;
+		color: #fff;
+		margin: 60px auto;
+
+		form {
+			display: flex;
+			flex-direction: column;
+			text-align: justify;
+
+			small {
+				font-size: 60%;
+				color: #45B3EB;
+			}
+
+			.fade {
+				filter: blur(4px);
+			}
+		}
+
+		&-itens {
+			display: flex;
+			flex-direction: row;
+
+			.timetable {
+				display: flex;
+				flex-direction: column;
+			}
+
+			div {
+				display: flex;
+				flex-direction: column;
+				margin: 0 24px 0 0;
+			}
+
+			span {
+				font-family: 'OpenSans-Semibold';
+				font-size: 14px;
+				margin: 12px 0;
+			}
+
+			small {
+				font-family: 'OpenSans-Light';
+				font-size: 14px;
+				margin: 12px 0;
+			}
+		}
+
+		h3 {
+			font-family: 'OpenSans-Bold';
+			font-size: 20px;
+			margin: 0 0 20px 0;
+		}
+
+	}
+}
+
+.button-cta {
+  border: 3px solid #023F4E;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 12px 40px;
+	margin: 12px auto;
+  font-size: 16px;
+  font-family: 'OpenSans-semibold';
+  display: table;
+  color: #023F4E !important;
+  cursor: pointer;
+
+  &:active {
+    opacity: 0.8;
+  }
+
+  &:hover {
+		border: 3px solid #fff;
+	  background-color: #023F4E;
+		color: #fff !important;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 40em) {
+	.slides {
+		margin: 0 0 0 0;
+		height: 47vh;
+		padding: 0 38px;
+
+		&-title {
+			h2 {
+				font-size: 18px;
+		    margin: 70px 0 12px 0;
+		    width: 140px;
+
+				small {
+					font-size: 80%;
+				}
+			}
+
+			h3 {
+				font-size: 8px;
+		    width: 150px;
+			}
+		}
+
+		img {
+			height: 30vw;
+			margin: 70px 0 0 30px;
+		}
+	}
+
+	.hbar {
+		h3 {
+			font-size: 18px;
+		}
+	}
+
+	.hbar-x {
+		height: 22vh;
+
+		h3 {
+			font-size: 24px;
+		}
+	}
+
+	.frame {
+		height: auto;
+
+		h3 {
+			font-size: 26px;
+			font-family: 'OpenSans-Semibold';
+			color: #21252B;
+			margin: 42px 0 12px;
+		}
+
+		hr {
+			width: 50px;
+			height: 2px;
+			background-color: #21252B;
+			border: none;
+		}
+
+		h4 {
+			font-size: 16px;
+			font-family: 'OpenSans-Regular';
+			color: #737A81;
+			margin: 12px 0;
+		}
+
+		&-x {
+			background: #277598 url('../images/glass-texture.png') no-repeat;
+			background-size: cover;
+
+			h3 {
+				color: #fff;
+			}
+
+			hr {
+				background-color: #fff;
+			}
+
+			h4 {
+				color: #fff;
+			}
+		}
+
+		.services {
+			&-itens {
+				display: flex;
+				flex-direction: column;
+			}
+
+			&-item {
+				margin: 12px 24px;
+			}
+		}
+
+		.lastworks {
+			&-itens {
+				display: flex;
+				flex-direction: column;
+			}
+
+			&-item {
+				margin: 12px 24px;
+
+				img {
+					width: 310px;
+					height: 202px;
+				}
+			}
+		}
+
+		.blog {
+			display: flex;
+			flex-direction: column;
+			text-align: justify;
+			color: #5794AF;
+			padding: 42px 0 0 0;
+
+			&-news {
+				padding: 12px 24px;
+			}
+		}
+	}
+
+	.footer {
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		padding: 12px;
+
+		.contact {
+			margin: 28px auto;
+			width: 90vw;
+		}
+	}
+}

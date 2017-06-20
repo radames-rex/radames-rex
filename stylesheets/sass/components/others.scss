@@ -1,0 +1,51 @@
+.blog, .about, .pictures, .projects, .contact {
+  .frame {
+    height: auto;
+    min-height: 82vh;
+  }
+}
+
+
+.hbar {
+  &-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 11vw 0 0 0;
+    padding: 0 11vw 0 8vw;
+    height: 14vh;
+    background: #569cbc url('../images/glass-texture.png');
+    background: -moz-radial-gradient(center, ellipse cover, #569cbc 16%, #013f4e 100%) url('../images/glass-texture.png');
+    background: -webkit-radial-gradient(center, ellipse cover, #569cbc 16%,#013f4e 100%) url('../images/glass-texture.png');
+    background: radial-gradient(ellipse at center, #569cbc 16%,#013f4e 100%) url('../images/glass-texture.png');
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#569cbc', endColorstr='#013f4e',GradientType=1 );
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h3 {
+      font-family: 'OpenSans-Regular';
+      font-size: 24px;
+      color: #fff;
+    }
+
+    h4 {
+      font-family: 'OpenSans-Regular';
+      font-size: 18px;
+      color: #fff;
+    }
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 40em) {
+  .hbar {
+    &-title {
+      h4 {
+        font-family: 'OpenSans-Regular';
+        font-size: 12px;
+        color: #fff;
+        width: 40vw;
+      }
+    }
+  }
+}
