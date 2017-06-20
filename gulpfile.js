@@ -10,32 +10,32 @@ var gulp = require('gulp'),
 // Compila Sass para Css
 gulp.task('sass', function() {
   return gulp.src([
-      'app/stylesheets/sass/reset.scss',
-      'app/stylesheets/sass/layout.scss',
-      'app/stylesheets/sass/fonts.scss',
-      'app/stylesheets/sass/header.scss',
-      'app/stylesheets/sass/**/*.scss',
-      'app/stylesheets/sass/footer.scss'
+      'stylesheets/sass/reset.scss',
+      'stylesheets/sass/layout.scss',
+      'stylesheets/sass/fonts.scss',
+      'stylesheets/sass/header.scss',
+      'stylesheets/sass/**/*.scss',
+      'stylesheets/sass/footer.scss'
     ])
     .pipe(concat('app.scss'))
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('app/stylesheets/'));
+    .pipe(gulp.dest('stylesheets/'));
 });
 
 // Gera um build para deploy no servidor
 gulp.task('build', function() {
   return gulp.src([
-      'app/**',
-      '!app/.temp/',
-      '!app/stylesheets/sass',
-      '!app/**/DS.Store'
+      '../radames-rex/**',
+      '!../radames-rex/.temp/',
+      '!../radames-rex/stylesheets/sass',
+      '!../radames-rex/**/DS.Store'
     ])
     .pipe(gulp.dest('dist/'));
 });
 
 // Observa mudanças para fazer reload
 gulp.task('watch', function() {
-  gulp.watch('app/stylesheets/sass/**/*.scss', ['sass']);
+  gulp.watch('stylesheets/sass/**/*.scss', ['sass']);
 });
 
 // Inicia o servidor

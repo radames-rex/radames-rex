@@ -78,6 +78,15 @@ select {
   border: 1px solid #ff5c00;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
 
 @media only screen and (max-width: 40em) {
   .hide-for-mobile {
