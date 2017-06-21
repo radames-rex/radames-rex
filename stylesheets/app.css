@@ -29,7 +29,7 @@ table {
   border-spacing: 0; }
 
 body {
-  background-color: #f3f3f3; }
+  background-color: #fff; }
 
 a,
 a:active,
@@ -121,6 +121,10 @@ select {
   font-family: 'OpenSans-ExtraBold';
   src: url(../fonts/OpenSans-ExtraBold.ttf); }
 
+@font-face {
+  font-family: 'Gamer';
+  src: url(../fonts/Gamer.ttf); }
+
 body {
   font-family: "OpenSans-Light"; }
 
@@ -133,8 +137,9 @@ header {
   flex-direction: column;
   height: 20vh; }
   header img {
-    width: 100%;
-    cursor: pointer; }
+    width: 90%;
+    cursor: pointer;
+    margin: 2vh auto; }
 
 /* Mobile */
 footer {
@@ -527,10 +532,21 @@ footer {
 .personal {
   height: 80vh;
   background: #f0f9ff;
-  background: -moz-linear-gradient(top, #f0f9ff 0%, #2e4c5a 100%);
-  background: -webkit-linear-gradient(top, #f0f9ff 0%, #2e4c5a 100%);
-  background: linear-gradient(to bottom, #f0f9ff 0%, #2e4c5a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#2e4c5a',GradientType=0 ); }
+  background: -moz-linear-gradient(top, white 0%, #018273 100%);
+  background: -webkit-linear-gradient(top, white 0%, #018273 100%);
+  background: linear-gradient(to bottom, white 0%, #018273 100%); }
+  .personal nav {
+    font-family: 'Gamer';
+    font-size: 46px;
+    margin: 27vh auto;
+    color: #af3732;
+    text-align: center; }
+    .personal nav ul li {
+      cursor: pointer; }
+      .personal nav ul li:hover:before {
+        content: '>> '; }
+      .personal nav ul li:hover:after {
+        content: ' <<'; }
 
 .worker .timeline {
   list-style: none;

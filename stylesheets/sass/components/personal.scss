@@ -1,8 +1,31 @@
 .personal {
   height: 80vh;
   background: rgb(240,249,255);
-  background: -moz-linear-gradient(top, rgba(240,249,255,1) 0%, rgba(46,76,90,1) 100%);
-  background: -webkit-linear-gradient(top, rgba(240,249,255,1) 0%,rgba(46,76,90,1) 100%);
-  background: linear-gradient(to bottom, rgba(240,249,255,1) 0%,rgba(46,76,90,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#2e4c5a',GradientType=0 );
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(1, 130, 115,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(1, 130, 115,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(1, 130, 115,1) 100%);
+
+  nav {
+    font-family: 'Gamer';
+    font-size: 46px;
+    margin: 27vh auto;
+    color: #af3732;
+    text-align: center;
+
+    ul {
+      li {
+        cursor: pointer;
+
+        &:hover {
+          &:before {
+            content: '>> ';
+          }
+
+          &:after {
+            content: ' <<';
+          }
+        }
+      }
+    }
+  }
 }
