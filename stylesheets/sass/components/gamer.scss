@@ -1,0 +1,56 @@
+.gamer {
+  background: rgb(1, 130, 115);
+  background: -moz-linear-gradient(top, rgba(1, 130, 115,1) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(1, 130, 115,1) 0%,rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(1, 130, 115,1) 0%,rgba(255,255,255,1) 100%);
+
+  .title {
+    text-align: center;
+    width: 100%;
+    font-family: 'Alien';
+    font-size: 3.6em;
+    margin: 42px 0 12px 0;
+  }
+
+  .subtitle {
+    text-align: center;
+    width: 100%;
+    font-family: 'OpenSans-Regular';
+    font-size: 1.1em;
+    margin: 0 0 42px 0;
+  }
+
+  .content {
+    width: 30vw;
+    padding: 2vw;
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .portfolio {
+    &-caption {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: white;
+      text-align: center;
+      padding: 25px;
+
+      h4 {
+        text-transform: none;
+        font-size: 24px;
+        margin: 0;
+        font-family: 'OpenSans-Regular';
+      }
+
+      p {
+        font-size: 16px;
+        margin: 0;
+        color: #777;
+      }
+    }
+  }
+}

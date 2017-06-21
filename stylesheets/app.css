@@ -125,6 +125,14 @@ select {
   font-family: 'Gamer';
   src: url(../fonts/Gamer.ttf); }
 
+@font-face {
+  font-family: 'Supernatural';
+  src: url(../fonts/Supernatural_Knight.ttf); }
+
+@font-face {
+  font-family: 'Alien';
+  src: url(../fonts/alienleague.ttf); }
+
 body {
   font-family: "OpenSans-Light"; }
 
@@ -167,6 +175,46 @@ footer {
     height: 50px; }
   footer div {
     vertical-align: middle; }
+
+.gamer {
+  background: #018273;
+  background: -moz-linear-gradient(top, #018273 0%, white 100%);
+  background: -webkit-linear-gradient(top, #018273 0%, white 100%);
+  background: linear-gradient(to bottom, #018273 0%, white 100%); }
+  .gamer .title {
+    text-align: center;
+    width: 100%;
+    font-family: 'Alien';
+    font-size: 3.6em;
+    margin: 42px 0 12px 0; }
+  .gamer .subtitle {
+    text-align: center;
+    width: 100%;
+    font-family: 'OpenSans-Regular';
+    font-size: 1.1em;
+    margin: 0 0 42px 0; }
+  .gamer .content {
+    width: 30vw;
+    padding: 2vw; }
+    .gamer .content img {
+      display: block;
+      max-width: 100%;
+      height: auto; }
+  .gamer .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    padding: 25px; }
+    .gamer .portfolio-caption h4 {
+      text-transform: none;
+      font-size: 24px;
+      margin: 0;
+      font-family: 'OpenSans-Regular'; }
+    .gamer .portfolio-caption p {
+      font-size: 16px;
+      margin: 0;
+      color: #777; }
 
 .slides {
   margin: 11vw 0 0 0;
@@ -494,41 +542,6 @@ footer {
       margin: 28px auto;
       width: 90vw; } }
 
-.blog .frame, .about .frame, .pictures .frame, .projects .frame, .contact .frame {
-  height: auto;
-  min-height: 82vh; }
-
-.hbar-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 11vw 0 0 0;
-  padding: 0 11vw 0 8vw;
-  height: 14vh;
-  background: #569cbc url("../images/glass-texture.png");
-  background: -moz-radial-gradient(center, ellipse cover, #569cbc 16%, #013f4e 100%) url("../images/glass-texture.png");
-  background: -webkit-radial-gradient(center, ellipse cover, #569cbc 16%, #013f4e 100%) url("../images/glass-texture.png");
-  background: radial-gradient(ellipse at center, #569cbc 16%, #013f4e 100%) url("../images/glass-texture.png");
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#569cbc', endColorstr='#013f4e',GradientType=1 );
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .hbar-title h3 {
-    font-family: 'OpenSans-Regular';
-    font-size: 24px;
-    color: #fff; }
-  .hbar-title h4 {
-    font-family: 'OpenSans-Regular';
-    font-size: 18px;
-    color: #fff; }
-
-/* Mobile */
-@media only screen and (max-width: 40em) {
-  .hbar-title h4 {
-    font-family: 'OpenSans-Regular';
-    font-size: 12px;
-    color: #fff;
-    width: 40vw; } }
-
 .personal {
   height: 80vh;
   background: #f0f9ff;
@@ -548,72 +561,88 @@ footer {
       .personal nav ul li:hover:after {
         content: ' <<'; }
 
-.worker .timeline {
-  list-style: none;
-  padding: 0;
-  position: relative; }
-  .worker .timeline li {
-    min-height: 170px;
-    margin-bottom: 100px;
-    position: relative; }
-  .worker .timeline:before {
-    left: 50%;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    content: "";
-    width: 2px;
-    background-color: #364eff;
-    margin-left: -1.5px; }
-  .worker .timeline-image {
-    width: 170px;
-    height: 170px;
-    margin-left: -85px;
-    position: absolute;
-    z-index: 100;
-    background-color: #364EFF;
-    color: white;
-    border-radius: 100%;
-    border: 7px solid #f1f1f1;
+.worker {
+  color: #644638;
+  border: 3px solid;
+  border-width: 3px 0; }
+  .worker .title {
     text-align: center;
-    left: 50%; }
-    .worker .timeline-image img {
-      border-radius: 50%;
-      display: block;
-      max-width: 100%;
-      height: auto; }
-  .worker .timeline-panel {
-    width: 34%;
-    float: left;
-    text-align: right;
-    position: relative;
-    padding: 0 20px 20px 100px; }
-  .worker .timeline-inverted .timeline-panel {
-    float: right;
-    text-align: left;
-    padding: 0 100px 20px 20px; }
-  .worker .timeline-heading {
-    font-family: 'OpenSans-Semibold';
-    margin: 0 0 12px 0; }
-    .worker .timeline-heading .subheading {
-      font-family: 'OpenSans-Regular'; }
-  .worker .timeline-body {
-    color: #333; }
-    .worker .timeline-body .text-muted {
-      margin: 0 0 6px 0; }
-    .worker .timeline-body .XP h4 {
-      margin: 0 0 12px 0;
-      font-family: 'OpenSans-Regular'; }
-    .worker .timeline-body .XP .tecs img {
-      height: 24px;
-      width: auto; }
-    .worker .timeline-body .speakers h4 {
-      margin: 0 0 12px 0;
-      font-family: 'OpenSans-Regular'; }
-    .worker .timeline-body .speakers a {
-      font-size: 80%;
-      margin: 0 0 4px 12px; }
-      .worker .timeline-body .speakers a span {
-        font-size: 120%;
-        text-decoration: underline;
-        margin: 0 0 2px 0; }
+    width: 100%;
+    font-family: 'Supernatural';
+    font-size: 2em;
+    margin: 42px 0 12px 0; }
+  .worker .subtitle {
+    text-align: center;
+    width: 100%;
+    font-family: 'OpenSans-Regular';
+    font-size: 1.1em;
+    margin: 0 0 42px 0; }
+  .worker .timeline {
+    list-style: none;
+    padding: 0;
+    position: relative; }
+    .worker .timeline li {
+      min-height: 170px;
+      margin-bottom: 100px;
+      position: relative; }
+    .worker .timeline:before {
+      left: 50.5%;
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      content: "";
+      width: 2px;
+      background-color: #644638;
+      margin-left: -1.5px; }
+    .worker .timeline-image {
+      width: 170px;
+      height: 170px;
+      margin-left: -85px;
+      position: absolute;
+      z-index: 100;
+      background-color: #644638;
+      color: white;
+      border-radius: 100%;
+      border: 7px solid #644638;
+      text-align: center;
+      left: 50%; }
+      .worker .timeline-image img {
+        border-radius: 50%;
+        display: block;
+        max-width: 100%;
+        height: auto; }
+    .worker .timeline-panel {
+      width: 34%;
+      float: left;
+      text-align: right;
+      position: relative;
+      padding: 0 20px 20px 100px; }
+    .worker .timeline-inverted .timeline-panel {
+      float: right;
+      text-align: left;
+      padding: 0 100px 20px 20px; }
+    .worker .timeline-heading {
+      font-family: 'OpenSans-Semibold';
+      margin: 0 0 12px 0; }
+      .worker .timeline-heading .subheading {
+        font-family: 'OpenSans-Regular'; }
+    .worker .timeline-body {
+      color: #333; }
+      .worker .timeline-body .text-muted {
+        margin: 0 0 6px 0; }
+      .worker .timeline-body .XP h4 {
+        margin: 0 0 12px 0;
+        font-family: 'OpenSans-Regular'; }
+      .worker .timeline-body .XP .tecs img {
+        height: 24px;
+        width: auto; }
+      .worker .timeline-body .speakers h4 {
+        margin: 0 0 12px 0;
+        font-family: 'OpenSans-Regular'; }
+      .worker .timeline-body .speakers a {
+        font-size: 80%;
+        margin: 0 0 4px 12px; }
+        .worker .timeline-body .speakers a span {
+          font-size: 120%;
+          text-decoration: underline;
+          margin: 0 0 2px 0; }

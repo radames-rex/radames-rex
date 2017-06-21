@@ -1,4 +1,24 @@
 .worker {
+  color: #644638;
+  border: 3px solid;
+  border-width: 3px 0;
+
+  .title {
+    text-align: center;
+    width: 100%;
+    font-family: 'Supernatural';
+    font-size: 2em;
+    margin: 42px 0 12px 0;
+  }
+
+  .subtitle {
+    text-align: center;
+    width: 100%;
+    font-family: 'OpenSans-Regular';
+    font-size: 1.1em;
+    margin: 0 0 42px 0;
+  }
+
   .timeline {
     list-style: none;
     padding: 0;
@@ -11,13 +31,13 @@
     }
 
     &:before {
-      left: 50%;
+      left: 50.5%;
       top: 0;
       bottom: 0;
       position: absolute;
       content: "";
       width: 2px;
-      background-color: #364eff;
+      background-color: #644638;
       margin-left: -1.5px;
     }
 
@@ -27,10 +47,10 @@
       margin-left: -85px;
       position: absolute;
       z-index: 100;
-      background-color: #364EFF;
+      background-color: #644638;
       color: white;
       border-radius: 100%;
-      border: 7px solid #f1f1f1;
+      border: 7px solid #644638;
       text-align: center;
       left: 50%;
 
