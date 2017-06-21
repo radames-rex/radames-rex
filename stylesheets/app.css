@@ -155,7 +155,6 @@ footer {
   bottom: 0;
   width: 100%;
   height: auto;
-  background-color: #2E4C5A;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -165,7 +164,10 @@ footer {
   display: flex;
   align-items: center;
   padding: 28px 0;
-  border-top: 1px solid #1A2C34; }
+  background: #018273;
+  background: -moz-linear-gradient(top, #018273 0%, white 100%);
+  background: -webkit-linear-gradient(top, #018273 0%, white 100%);
+  background: linear-gradient(to bottom, #018273 0%, white 100%); }
   footer a,
   footer a:active,
   footer a:hover,
@@ -175,12 +177,12 @@ footer {
     height: 50px; }
   footer div {
     vertical-align: middle; }
+  footer .footer {
+    background-color: #2E4C5A; }
 
 .gamer {
   background: #018273;
-  background: -moz-linear-gradient(top, #018273 0%, white 100%);
-  background: -webkit-linear-gradient(top, #018273 0%, white 100%);
-  background: linear-gradient(to bottom, #018273 0%, white 100%); }
+  padding-bottom: 2px; }
   .gamer .title {
     text-align: center;
     width: 100%;
@@ -193,14 +195,33 @@ footer {
     font-family: 'OpenSans-Regular';
     font-size: 1.1em;
     margin: 0 0 42px 0; }
+  .gamer .container {
+    border: 2px solid #00b3aa;
+    border-radius: 2px;
+    padding: 1vw;
+    margin: 1vw; }
+    .gamer .container .thetitle {
+      margin: -2vw auto 2vw;
+      text-align: center;
+      font-family: 'Alien';
+      font-size: 30px;
+      color: #00b3aa;
+      background-color: #018273;
+      display: table;
+      padding: 0 4px; }
   .gamer .content {
     width: 30vw;
-    padding: 2vw; }
+    padding: 2vw;
+    cursor: pointer; }
+    .gamer .content .light:hover {
+      box-shadow: 0 0 42px #00fff2; }
     .gamer .content img {
+      border-radius: 2px 2px 0 0;
       display: block;
       max-width: 100%;
       height: auto; }
   .gamer .portfolio-caption {
+    border-radius: 0 0 2px 2px;
     max-width: 400px;
     margin: 0 auto;
     background-color: white;
