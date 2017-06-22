@@ -184,12 +184,14 @@ footer {
   background: #018273;
   padding-bottom: 2px; }
   .gamer .title {
+    color: #fff;
     text-align: center;
     width: 100%;
     font-family: 'Alien';
     font-size: 3.6em;
     margin: 42px 0 12px 0; }
   .gamer .subtitle {
+    color: #fff;
     text-align: center;
     width: 100%;
     font-family: 'OpenSans-Regular';
@@ -224,9 +226,10 @@ footer {
     border-radius: 0 0 2px 2px;
     max-width: 400px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #00b3aa;
     text-align: center;
-    padding: 25px; }
+    padding: 25px;
+    color: #fff; }
     .gamer .portfolio-caption h4 {
       text-transform: none;
       font-size: 24px;
@@ -234,8 +237,7 @@ footer {
       font-family: 'OpenSans-Regular'; }
     .gamer .portfolio-caption p {
       font-size: 16px;
-      margin: 0;
-      color: #777; }
+      margin: 6px 0 0; }
 
 .slides {
   margin: 11vw 0 0 0;

@@ -3,6 +3,7 @@
   padding-bottom: 2px;
 
   .title {
+    color: #fff;
     text-align: center;
     width: 100%;
     font-family: 'Alien';
@@ -11,6 +12,7 @@
   }
 
   .subtitle {
+    color: #fff;
     text-align: center;
     width: 100%;
     font-family: 'OpenSans-Regular';
@@ -58,9 +60,10 @@
       border-radius: 0 0 2px 2px;
       max-width: 400px;
       margin: 0 auto;
-      background-color: white;
+      background-color: #00b3aa;
       text-align: center;
       padding: 25px;
+      color: #fff;
 
       h4 {
         text-transform: none;
@@ -71,8 +74,7 @@
 
       p {
         font-size: 16px;
-        margin: 0;
-        color: #777;
+        margin: 6px 0 0;
       }
     }
   }
