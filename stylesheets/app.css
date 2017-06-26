@@ -334,332 +334,6 @@ footer {
       font-size: 16px;
       margin: 6px 0 0; }
 
-.slides {
-  margin: 11vw 0 0 0;
-  height: 440px;
-  display: flex;
-  padding: 24px 130px;
-  background: #082a3e;
-  background: -moz-linear-gradient(-45deg, #082a3e 0%, #569cbc 100%);
-  background: -webkit-linear-gradient(-45deg, #082a3e 0%, #569cbc 100%);
-  background: linear-gradient(135deg, #082a3e 0%, #569cbc 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#082a3e', endColorstr='#569cbc',GradientType=1 ); }
-  .slides-title {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    font-family: 'OpenSans-Light'; }
-    .slides-title h2 {
-      font-size: 48px;
-      margin: 90px 0 12px 0;
-      width: 590px; }
-      .slides-title h2 small {
-        font-size: 80%; }
-    .slides-title h3 {
-      font-size: 18px;
-      width: 590px; }
-  .slides img {
-    height: 300px;
-    margin: 70px 0 0 70px; }
-
-.hbar {
-  display: flex;
-  align-items: center;
-  height: 19vh;
-  background: #569cbc url("../images/glass-texture.png");
-  background: -moz-radial-gradient(center, ellipse cover, #569cbc 16%, #013f4e 100%) url("../images/glass-texture.png");
-  background: -webkit-radial-gradient(center, ellipse cover, #569cbc 16%, #013f4e 100%) url("../images/glass-texture.png");
-  background: radial-gradient(ellipse at center, #569cbc 16%, #013f4e 100%) url("../images/glass-texture.png");
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#569cbc', endColorstr='#013f4e',GradientType=1 );
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .hbar h3 {
-    margin: 0 auto;
-    font-family: 'OpenSans-Regular';
-    font-size: 24px;
-    color: #fff;
-    width: 80vw; }
-
-.hbar-x {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  height: 19vh;
-  background: #45B3EB; }
-  .hbar-x h3 {
-    margin: 3vh auto;
-    font-family: 'OpenSans-Semibold';
-    font-size: 30px;
-    color: #02404F;
-    width: 80vw; }
-  .hbar-x .row {
-    display: flex;
-    flex-direction: row; }
-    .hbar-x .row img {
-      height: 6vh;
-      margin: 0 2vw;
-      border: 1px solid #023F4E; }
-
-.frame {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  height: 82vh; }
-  .frame h3 {
-    font-size: 26px;
-    font-family: 'OpenSans-Semibold';
-    color: #21252B;
-    margin: 42px 0 12px; }
-  .frame hr {
-    width: 50px;
-    height: 2px;
-    background-color: #21252B;
-    border: none; }
-  .frame h4 {
-    font-size: 16px;
-    font-family: 'OpenSans-Regular';
-    color: #737A81;
-    margin: 12px 0; }
-  .frame-x {
-    background: #277598 url("../images/glass-texture.png") no-repeat;
-    background-size: cover; }
-    .frame-x h3 {
-      color: #fff; }
-    .frame-x hr {
-      background-color: #fff; }
-    .frame-x h4 {
-      color: #fff; }
-  .frame .services-itens {
-    display: flex;
-    justify-content: space-around; }
-  .frame .services-item {
-    display: flex;
-    flex-direction: column;
-    color: #737A81;
-    margin: 42px;
-    flex: 1; }
-    .frame .services-item-icon {
-      padding: 22px;
-      background-color: #569CBC;
-      color: #fff;
-      border-radius: 50%;
-      display: table;
-      margin: 12px auto;
-      font-size: 42px; }
-    .frame .services-item span {
-      margin: 12px auto 6px;
-      font-size: 20px; }
-    .frame .services-item p {
-      text-align: justify;
-      margin: 6px auto;
-      font-size: 16px; }
-  .frame .lastworks-itens {
-    display: flex;
-    justify-content: space-around; }
-  .frame .lastworks-item {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    margin: 42px; }
-    .frame .lastworks-item img {
-      margin: 12px auto;
-      width: 338px;
-      height: 216px;
-      border-radius: 4px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); }
-    .frame .lastworks-item span {
-      margin: 12px auto 6px;
-      font-size: 14px; }
-    .frame .lastworks-item p {
-      text-align: justify;
-      margin: 6px auto;
-      font-size: 13px; }
-  .frame .blog {
-    display: flex;
-    flex-direction: row;
-    text-align: justify;
-    color: #5794AF;
-    padding: 42px 0 0 0; }
-    .frame .blog-news {
-      padding: 0 64px;
-      flex: 1; }
-      .frame .blog-news .title {
-        font-family: 'OpenSans-Semibold';
-        font-size: 30px;
-        margin: 30px 0; }
-      .frame .blog-news article {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around; }
-        .frame .blog-news article img {
-          width: 100px;
-          height: 80px;
-          margin: 0 12px 0 0; }
-        .frame .blog-news article h3 {
-          font-family: 'OpenSans-Semibold';
-          font-size: 16px;
-          margin: 0; }
-        .frame .blog-news article h4 {
-          font-family: 'OpenSans-Light';
-          font-size: 12px; }
-          .frame .blog-news article h4 i {
-            font-family: 'OpenSans-Bold'; }
-        .frame .blog-news article p {
-          font-family: 'OpenSans-Light';
-          font-size: 14px; }
-      .frame .blog-news hr {
-        background-color: #5794AF;
-        opacity: 0.5;
-        margin: 26px 0;
-        height: 1px;
-        width: auto; }
-    .frame .blog-promo img {
-      width: 200px !important;
-      height: 122px !important;
-      margin: 0 12px 0 0; }
-
-.footer {
-  height: 67vh;
-  background-color: #2E4C5A;
-  display: flex;
-  flex-direction: row; }
-  .footer .contact {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    color: #fff;
-    margin: 60px auto; }
-    .footer .contact form {
-      display: flex;
-      flex-direction: column;
-      text-align: justify; }
-      .footer .contact form small {
-        font-size: 60%;
-        color: #45B3EB; }
-      .footer .contact form .fade {
-        filter: blur(4px); }
-    .footer .contact-itens {
-      display: flex;
-      flex-direction: row; }
-      .footer .contact-itens .timetable {
-        display: flex;
-        flex-direction: column; }
-      .footer .contact-itens div {
-        display: flex;
-        flex-direction: column;
-        margin: 0 24px 0 0; }
-      .footer .contact-itens span {
-        font-family: 'OpenSans-Semibold';
-        font-size: 14px;
-        margin: 12px 0; }
-      .footer .contact-itens small {
-        font-family: 'OpenSans-Light';
-        font-size: 14px;
-        margin: 12px 0; }
-    .footer .contact h3 {
-      font-family: 'OpenSans-Bold';
-      font-size: 20px;
-      margin: 0 0 20px 0; }
-
-.button-cta {
-  border: 3px solid #023F4E;
-  background-color: #fff;
-  border-radius: 4px;
-  padding: 12px 40px;
-  margin: 12px auto;
-  font-size: 16px;
-  font-family: 'OpenSans-semibold';
-  display: table;
-  color: #023F4E !important;
-  cursor: pointer; }
-  .button-cta:active {
-    opacity: 0.8; }
-  .button-cta:hover {
-    border: 3px solid #fff;
-    background-color: #023F4E;
-    color: #fff !important; }
-
-/* Mobile */
-@media only screen and (max-width: 40em) {
-  .slides {
-    margin: 0 0 0 0;
-    height: 47vh;
-    padding: 0 38px; }
-    .slides-title h2 {
-      font-size: 18px;
-      margin: 70px 0 12px 0;
-      width: 140px; }
-      .slides-title h2 small {
-        font-size: 80%; }
-    .slides-title h3 {
-      font-size: 8px;
-      width: 150px; }
-    .slides img {
-      height: 30vw;
-      margin: 70px 0 0 30px; }
-  .hbar h3 {
-    font-size: 18px; }
-  .hbar-x {
-    height: 22vh; }
-    .hbar-x h3 {
-      font-size: 24px; }
-  .frame {
-    height: auto; }
-    .frame h3 {
-      font-size: 26px;
-      font-family: 'OpenSans-Semibold';
-      color: #21252B;
-      margin: 42px 0 12px; }
-    .frame hr {
-      width: 50px;
-      height: 2px;
-      background-color: #21252B;
-      border: none; }
-    .frame h4 {
-      font-size: 16px;
-      font-family: 'OpenSans-Regular';
-      color: #737A81;
-      margin: 12px 0; }
-    .frame-x {
-      background: #277598 url("../images/glass-texture.png") no-repeat;
-      background-size: cover; }
-      .frame-x h3 {
-        color: #fff; }
-      .frame-x hr {
-        background-color: #fff; }
-      .frame-x h4 {
-        color: #fff; }
-    .frame .services-itens {
-      display: flex;
-      flex-direction: column; }
-    .frame .services-item {
-      margin: 12px 24px; }
-    .frame .lastworks-itens {
-      display: flex;
-      flex-direction: column; }
-    .frame .lastworks-item {
-      margin: 12px 24px; }
-      .frame .lastworks-item img {
-        width: 310px;
-        height: 202px; }
-    .frame .blog {
-      display: flex;
-      flex-direction: column;
-      text-align: justify;
-      color: #5794AF;
-      padding: 42px 0 0 0; }
-      .frame .blog-news {
-        padding: 12px 24px; }
-  .footer {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding: 12px; }
-    .footer .contact {
-      margin: 28px auto;
-      width: 90vw; } }
-
 .personal {
   height: 80vh;
   background: #f0f9ff;
@@ -668,7 +342,7 @@ footer {
   background: linear-gradient(to bottom, white 0%, #018273 100%); }
   .personal nav {
     font-family: 'Gamer';
-    font-size: 46px;
+    font-size: 2.4em;
     margin: 27vh auto;
     color: #af3732;
     text-align: center; }
@@ -716,6 +390,9 @@ footer {
       width: 170px;
       height: 170px;
       margin-left: -85px;
+      width: 11vw;
+      height: 15.5vw;
+      margin-left: -5.5vw;
       position: absolute;
       z-index: 100;
       background-color: #644638;
@@ -728,7 +405,8 @@ footer {
         border-radius: 50%;
         display: block;
         max-width: 100%;
-        height: auto; }
+        max-height: 100%;
+        height: 100%; }
     .worker .timeline-panel {
       width: 34%;
       float: left;
@@ -738,7 +416,8 @@ footer {
     .worker .timeline-inverted .timeline-panel {
       float: right;
       text-align: left;
-      padding: 0 100px 20px 20px; }
+      padding: 0 100px 20px 20px;
+      padding: 0 8vw 20px 20px; }
     .worker .timeline-heading {
       font-family: 'OpenSans-Semibold';
       margin: 0 0 12px 0; }
