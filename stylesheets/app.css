@@ -151,23 +151,21 @@ header {
 
 /* Mobile */
 footer {
-  position: relative;
-  bottom: 0;
   width: 100%;
-  height: auto;
   color: #fff;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   font-family: 'OpenSans-Semibold';
   font-size: 14px;
-  padding: 8px 0;
   display: flex;
   align-items: center;
-  padding: 28px 0;
+  padding: 12px 0 0 0;
   background: #018273;
-  background: -moz-linear-gradient(top, #018273 0%, white 100%);
-  background: -webkit-linear-gradient(top, #018273 0%, white 100%);
-  background: linear-gradient(to bottom, #018273 0%, white 100%); }
+  background: -moz-linear-gradient(top, #018273 0%, white 45%);
+  background: -webkit-linear-gradient(top, #018273 0%, white 45%);
+  background: linear-gradient(to bottom, #018273 0%, white 45%);
+  border-top: 1px solid #00b3aa;
+  box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.42); }
   footer a,
   footer a:active,
   footer a:hover,
@@ -177,8 +175,105 @@ footer {
     height: 50px; }
   footer div {
     vertical-align: middle; }
+  footer .pre-footer {
+    padding: 0 0 20vh 0; }
+    footer .pre-footer .title {
+      color: #fff;
+      text-align: center;
+      width: 100%;
+      font-family: 'OpenSans-Semibold';
+      font-size: 3.6em;
+      margin: 42px 0 12px 0; }
+    footer .pre-footer .subtitle {
+      color: #fff;
+      text-align: center;
+      width: 100%;
+      font-family: 'OpenSans-Regular';
+      font-size: 1.1em;
+      margin: 0 0 42px 0; }
+    footer .pre-footer .social-network {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap; }
+      footer .pre-footer .social-network li {
+        width: 30vw;
+        font-size: 1.5em;
+        text-align: center;
+        padding: 12px; }
   footer .footer {
-    background-color: #2E4C5A; }
+    background-color: #2E4C5A;
+    position: relative;
+    bottom: 0;
+    height: 4vh;
+    width: 100%;
+    background-color: #2E4C5A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+
+.color-twitter {
+  color: #1da1f2 !important; }
+
+.color-facebook {
+  color: #3b5998 !important; }
+
+.color-instagram {
+  color: #262626 !important; }
+
+.color-skype {
+  color: #00aff0 !important; }
+
+.color-whatsapp {
+  color: #138c7f !important; }
+
+.color-telegram {
+  color: #5580a3 !important; }
+
+.color-rocket {
+  color: #c1272d !important; }
+
+.color-slack {
+  color: #253039 !important; }
+
+.color-linkedin {
+  color: #0077b5 !important; }
+
+.color-github {
+  color: #24292e !important; }
+
+.color-clock {
+  color: #000000 !important; }
+
+.color-stack {
+  color: #f48024 !important; }
+
+.color-behance {
+  color: #0057ff !important; }
+
+.color-dribbble {
+  color: #c32361 !important; }
+
+.color-deviantart {
+  color: #05cc47 !important; }
+
+.color-pinterest {
+  color: #bd081c !important; }
+
+.color-youtube {
+  color: #e62117 !important; }
+
+.color-spotify {
+  color: #1db954 !important; }
+
+.color-twitch {
+  color: #4b367c !important; }
+
+.color-steam {
+  color: #171a21 !important; }
+
+.color-gamepad {
+  color: #ed3b1c !important; }
 
 .gamer {
   background: #018273;
