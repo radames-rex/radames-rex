@@ -327,11 +327,11 @@ footer {
     color: #fff; }
     .gamer .portfolio-caption h4 {
       text-transform: none;
-      font-size: 24px;
+      font-size: 1.8vw;
       margin: 0;
       font-family: 'OpenSans-Regular'; }
     .gamer .portfolio-caption p {
-      font-size: 16px;
+      font-size: 1.5vw;
       margin: 6px 0 0; }
 
 .personal {
@@ -387,11 +387,8 @@ footer {
       background-color: #644638;
       margin-left: -1.5px; }
     .worker .timeline-image {
-      width: 170px;
-      height: 170px;
-      margin-left: -85px;
       width: 11vw;
-      height: 15.5vw;
+      height: 24vh;
       margin-left: -5.5vw;
       position: absolute;
       z-index: 100;
@@ -416,7 +413,6 @@ footer {
     .worker .timeline-inverted .timeline-panel {
       float: right;
       text-align: left;
-      padding: 0 100px 20px 20px;
       padding: 0 8vw 20px 20px; }
     .worker .timeline-heading {
       font-family: 'OpenSans-Semibold';
