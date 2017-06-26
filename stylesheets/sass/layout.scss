@@ -92,10 +92,26 @@ select {
   .hide-for-mobile {
     display: none !important;
   }
+
+  .row-mobile {
+    flex-direction: row !important;
+  }
+
+  .column-mobile {
+    flex-direction: column !important;
+  }
 }
 
 @media only screen and (min-width: 40em) {
   .hide-for-desktop {
     display: none !important;
+  }
+
+  .row-desktop {
+    flex-direction: row !important;
+  }
+
+  .column-desktop {
+    flex-direction: column !important;
   }
 }

@@ -95,11 +95,19 @@ select {
 
 @media only screen and (max-width: 40em) {
   .hide-for-mobile {
-    display: none !important; } }
+    display: none !important; }
+  .row-mobile {
+    flex-direction: row !important; }
+  .column-mobile {
+    flex-direction: column !important; } }
 
 @media only screen and (min-width: 40em) {
   .hide-for-desktop {
-    display: none !important; } }
+    display: none !important; }
+  .row-desktop {
+    flex-direction: row !important; }
+  .column-desktop {
+    flex-direction: column !important; } }
 
 @font-face {
   font-family: 'OpenSans-Light';
@@ -211,6 +219,16 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center; }
+
+@media only screen and (max-width: 40em) {
+  footer {
+    background: -moz-linear-gradient(top, #018273 0%, white 25%);
+    background: -webkit-linear-gradient(top, #018273 0%, white 25%);
+    background: linear-gradient(to bottom, #018273 0%, white 25%); }
+    footer .pre-footer .social-network li {
+      width: 90vw; }
+    footer .footer {
+      height: 8vh; } }
 
 .color-twitter {
   color: #1da1f2 !important; }
@@ -334,6 +352,14 @@ footer {
       font-size: 1.5vw;
       margin: 6px 0 0; }
 
+@media only screen and (max-width: 40em) {
+  .gamer .content {
+    width: 90vw; }
+  .gamer .portfolio-caption h4 {
+    font-size: 5.8vw; }
+  .gamer .portfolio-caption p {
+    font-size: 4vw; } }
+
 .personal {
   height: 80vh;
   background: #f0f9ff;
@@ -439,3 +465,16 @@ footer {
           font-size: 120%;
           text-decoration: underline;
           margin: 0 0 2px 0; }
+
+@media only screen and (max-width: 40em) {
+  .worker .timeline:before {
+    left: 15%; }
+  .worker .timeline-image {
+    width: 13vw;
+    height: 11vh;
+    margin-left: -43.5vw; }
+  .worker .timeline-panel {
+    width: 65%;
+    float: right;
+    text-align: left;
+    padding: 0 8vw 20px 20px; } }

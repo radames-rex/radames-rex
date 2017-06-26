@@ -129,3 +129,26 @@
     }
   }
 }
+
+@media only screen and (max-width: 40em) {
+  .worker {
+    .timeline {
+      &:before {
+        left: 15%;
+      }
+
+      &-image {
+        width: 13vw;
+        height: 11vh;
+        margin-left: -43.5vw;
+      }
+
+      &-panel {
+        width: 65%;
+        float: right;
+        text-align: left;
+        padding: 0 8vw 20px 20px;
+      }
+    }
+  }
+}

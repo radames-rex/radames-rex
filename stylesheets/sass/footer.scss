@@ -79,4 +79,22 @@ footer {
   }
 }
 
-@media only screen and (max-width: 40em) { }
+@media only screen and (max-width: 40em) {
+  footer {
+    background: -moz-linear-gradient(top, rgba(1, 130, 115,1) 0%, rgba(255,255,255,1) 25%);
+    background: -webkit-linear-gradient(top, rgba(1, 130, 115,1) 0%,rgba(255,255,255,1) 25%);
+    background: linear-gradient(to bottom, rgba(1, 130, 115,1) 0%,rgba(255,255,255,1) 25%);
+
+    .pre-footer {
+      .social-network {
+        li {
+          width: 90vw;
+        }
+      }
+    }
+
+    .footer {
+      height: 8vh;
+    }
+  }
+}
