@@ -47,22 +47,30 @@
       box-shadow: 0 0 42px #00fff2;
     }
 
-    img {
+    figure {
       border-radius: 2px 2px 0 0;
       display: block;
-      max-width: 100%;
-      height: auto;
+      overflow: hidden;
+      width: 100%;
+      max-width: 30vw;
+      height: 15.5vw;
+      
+      img {
+        width: 100%;
+        height: 100%;
+        transform: translateX(-50%);
+        margin-left: 50%;
+      }
     }
   }
 
   .portfolio {
     &-caption {
       border-radius: 0 0 2px 2px;
-      max-width: 400px;
-      margin: 0 auto;
+      width: 100%;
       background-color: #00b3aa;
       text-align: center;
-      padding: 25px;
+      padding: 25px 0;
       color: #fff;
 
       h4 {

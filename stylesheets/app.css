@@ -330,18 +330,24 @@ footer {
     cursor: pointer; }
     .gamer .content .light:hover {
       box-shadow: 0 0 42px #00fff2; }
-    .gamer .content img {
+    .gamer .content figure {
       border-radius: 2px 2px 0 0;
       display: block;
-      max-width: 100%;
-      height: auto; }
+      overflow: hidden;
+      width: 100%;
+      max-width: 30vw;
+      height: 15.5vw; }
+      .gamer .content figure img {
+        width: 100%;
+        height: 100%;
+        transform: translateX(-50%);
+        margin-left: 50%; }
   .gamer .portfolio-caption {
     border-radius: 0 0 2px 2px;
-    max-width: 400px;
-    margin: 0 auto;
+    width: 100%;
     background-color: #00b3aa;
     text-align: center;
-    padding: 25px;
+    padding: 25px 0;
     color: #fff; }
     .gamer .portfolio-caption h4 {
       text-transform: none;
@@ -404,7 +410,7 @@ footer {
       margin-bottom: 100px;
       position: relative; }
     .worker .timeline:before {
-      left: 50.5%;
+      left: 50%;
       top: 0;
       bottom: 0;
       position: absolute;
@@ -413,9 +419,9 @@ footer {
       background-color: #644638;
       margin-left: -1.5px; }
     .worker .timeline-image {
-      width: 11vw;
-      height: 24vh;
-      margin-left: -5.5vw;
+      width: 150px;
+      height: 150px;
+      margin-left: -83px;
       position: absolute;
       z-index: 100;
       background-color: #644638;

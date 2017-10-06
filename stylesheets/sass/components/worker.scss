@@ -31,7 +31,7 @@
     }
 
     &:before {
-      left: 50.5%;
+      left: 50%;
       top: 0;
       bottom: 0;
       position: absolute;
@@ -42,9 +42,9 @@
     }
 
     &-image {
-      width: 11vw;
-      height: 24vh;
-      margin-left: -5.5vw;
+      width: 150px;
+      height: 150px;
+      margin-left: -83px;
       position: absolute;
       z-index: 100;
       background-color: #644638;
